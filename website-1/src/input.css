@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+.li-hover:hover {
+  @apply underline underline-offset-[10px] font-bold;
+}
+
+.img-section {
+  @apply flex items-center justify-center;
+}
+
+.img-div {
+  @apply flex flex-col items-center justify-start;
+}
+
+.img-text {
+    @apply pt-2 w-full pl-1 text-base text-[rgb(19_117_72)];
+}
+
+.img{
+    @apply h-[9rem] w-[14rem];
+}
+
+h3{
+    @apply uppercase font-bold pb-6 text-sm;
+}
+
+.footer-div{
+    @apply p-2 flex flex-col items-start justify-center gap-[2px] leading-[20px];
+}

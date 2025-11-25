@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+.foot-items {
+  @apply p-5 h-[35vh] w-[17vw] flex flex-col justify-center items-start;
+}
+
+button{
+    @apply text-[rgb(175_116_82)] border p-2 w-[100px];
+}
+
+button:hover{
+    cursor:pointer;
+}

@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+.lis:hover {
+  @apply underline underline-offset-[12px] text-[#1BC8D3];
+}
+
+button:hover {
+  @apply cursor-pointer;
+}
+
+.box {
+  @apply flex flex-col border-1 h-[11rem] w-[14rem] items-center border-none;
+}
+
+.img-text {
+  @apply bg-[#1BC8D3] w-[14rem] h-[35px] text-white text-left p-2;
+}
+
+.footer-divs {
+  @apply h-[200px] w-[200px] flex flex-col justify-center pl-5;
+}
+
+.footer-p {
+  @apply text-white leading-[1.5rem];
+}
+
+.footer-p:hover{
+    @apply underline cursor-pointer underline-offset-[3px];
+}
